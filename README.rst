@@ -91,6 +91,7 @@ Usage Example
 =============
 
 .. code-block:: python
+
     import board, ds1306, time
 
     sclk = board.GP18
