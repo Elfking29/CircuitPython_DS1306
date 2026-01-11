@@ -18,7 +18,7 @@ Introduction
     :target: https://github.com/astral-sh/ruff
     :alt: Code Style: Ruff
 
-CircuitPython Driver for the DS1306 Real Time Clock from Maxim Integrated
+This is a CircuitPython Driver for the DS1306 Real Time Clock from Maxim Integrated.
 
 
 Dependencies
