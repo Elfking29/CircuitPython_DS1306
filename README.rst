@@ -90,8 +90,19 @@ Or the following command to update an existing version:
 Usage Example
 =============
 
-.. todo:: Add a quick, simple example. It and other examples should live in the
-examples folder and be included in docs/examples.rst.
+.. code-block:: python
+    import board, ds1306, time
+
+    sclk = board.GP18
+    mosi = board.GP19
+    miso = board.GP16
+    cs = board.GP15
+
+    ds = ds1306.DS1306(sclk, mosi, miso, cs)
+
+    while True:
+        print(ds.getTime())
+        time.sleep(1)
 
 Documentation
 =============
